@@ -40,10 +40,6 @@ a {
 	color: black;
 }
 
-.tqpHeader, .tqpFooter {
-	display: none;
-}
-
 .quote {
 	text-align: center;
 	width: 50%;
@@ -62,4 +58,3 @@ a {
 	line-height: 1.5;
 	margin-top: 10px;
 }
-
