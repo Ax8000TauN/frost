@@ -1,0 +1,84 @@
+body {
+	font-family: Garamond;
+
+}
+
+.title {
+	font-weight: 500;
+	font-size: 70px;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.container {
+	border: 1px solid black;
+	margin: auto;
+	width: 40%;
+	margin-top: 10%;
+
+}
+
+.subcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.links {
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+a {
+	outline: 0;
+	text-decoration: none;
+	color: black;
+}
+
+.tqpHeader, .tqpFooter {
+	display: none;
+}
+
+.quote {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.tqpQuote {
+	text-align: center;
+	font-size: 19px !important;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	font-weight: 500;
+	border: 0px solid red;
+}
+
+.tqpQuote::before {
+	content: "“";
+}
+
+.tqpQuote::after {
+	content: "”";
+}
+
+.tqpAuthor {
+	font-size: 15px !important;
+	line-height: 1.5;
+	margin-right: -100px;
+	border: 0px solid red;
+	font-weight: 500;
+	pointer-events: none;
+	opacity: 0;
+}
+
+.tqpAuthor::before {
+	content: "- ";
+}
+
