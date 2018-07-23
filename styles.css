@@ -49,18 +49,17 @@ a {
 	width: 50%;
 	margin: auto;
 	margin-top: 5%;
-	text-align: center;
 	font-size: 19px !important;
 	line-height: 1.5;
 	font-weight: 500;
 	border: 0px solid red;
 }
 
-.quote::before {
-	content: "“";
-}
-
-.quote::after {
-	content: "”";
+.author {
+	text-align: center;
+	font-size: 16px !important;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-top: 10px;
 }
 
