@@ -49,36 +49,18 @@ a {
 	width: 50%;
 	margin: auto;
 	margin-top: 5%;
-}
-
-.tqpQuote {
 	text-align: center;
 	font-size: 19px !important;
 	line-height: 1.5;
-	margin-bottom: 10px;
 	font-weight: 500;
 	border: 0px solid red;
 }
 
-.tqpQuote::before {
+.quote::before {
 	content: "“";
 }
 
-.tqpQuote::after {
+.quote::after {
 	content: "”";
-}
-
-.tqpAuthor {
-	font-size: 15px !important;
-	line-height: 1.5;
-	margin-right: -100px;
-	border: 0px solid red;
-	font-weight: 500;
-	pointer-events: none;
-	opacity: 0;
-}
-
-.tqpAuthor::before {
-	content: "- ";
 }
 
