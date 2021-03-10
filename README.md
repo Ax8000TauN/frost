@@ -1,3 +1,3 @@
 # frost - a minimal startpage
-HTML/CSS/Java learning experience
+HTML/CSS/JavaS learning experience
 This was used as a custom startpage for browsers
